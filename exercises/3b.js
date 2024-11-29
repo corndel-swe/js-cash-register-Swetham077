@@ -3,6 +3,7 @@
  */
 function countServings(recipeBook) {
   // code here
+  return recipeBook.recipes.reduce((total, recipe) => total + recipe.servings, 0);
 }
 
 // we've provided a sample object for debugging:
