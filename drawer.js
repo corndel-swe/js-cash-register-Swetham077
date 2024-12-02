@@ -16,3 +16,5 @@ export const drawer = [
   { name: 'nickel', value: 5, quantity: 41 },
   { name: 'penny', value: 1, quantity: 72 }
 ]
+
+console.log(drawer)
