@@ -3,6 +3,8 @@
  */
 function countVeggies(recipes) {
   // code here
+  return recipes.filter(recipes => recipes.isVegetarian).length;
+
 }
 
 // array provided for debugging:

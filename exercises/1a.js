@@ -5,6 +5,7 @@
  */
 function recipeSummary(recipe) {
   // code here
+  return `${recipe.name} has ${recipe.ingredients.length} ingredients and serves ${recipe.servings} people` 
 }
 
 // We have provided two recipes for debugging:

@@ -4,6 +4,12 @@
  */
 function lastRecipe(recipeBook) {
   // code here
+const recipes = recipeBook.recipes
+if (recipes.length === 0) {
+  return undefined
+}
+return recipes[recipes.length - 1].name;
+
 }
 
 // we've provided a sample object for debugging:

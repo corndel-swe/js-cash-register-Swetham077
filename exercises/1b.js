@@ -5,6 +5,8 @@
  */
 function renameBook(recipeBook, newName) {
   // code here
+  recipeBook.title =  newName;
+  return recipeBook
 }
 
 // we've provided a sample object for debugging:
